@@ -44,7 +44,7 @@
           $mail->MsgHTML($message_body);
           if(!$mail->send())
           {
-            header("Location: ../error_successful_message");
+            header("Location: ../error_successful_message.html");
           }
           else 
           {
