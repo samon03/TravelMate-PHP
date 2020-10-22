@@ -1,0 +1,51 @@
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" style="width: 37%; padding: 10px;  ">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel1" style="color: #006bb3; font-weight: bold;">Register</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -1em; color: black;">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="background-color: #e6eeff; overflow-y: scroll; max-height: 400px;">
+          <form action="controllers/login_register.php" method="post">
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Username</label>
+              <input type="text" class="form-control border" placeholder=" " name="name" id="recipient-rname" required="">
+            </div>
+            <div class="form-group">
+              <label for="recipient-email" class="col-form-label">Email</label>
+              <input type="email" class="form-control border" placeholder=" " name="email" id="recipient-email" required="" style="color: grey;">
+            </div>
+ 
+            <div class="form-group">
+               <label for="recipient-phone" class="col-form-label">Phone</label>
+              <input type="text" class="form-control border" placeholder=" " name="phone" id="recipient-phone" required="" style="color: grey;">
+            </div>
+ 
+            <div class="form-group">
+              <label for="password1" class="col-form-label">Password</label>
+              <input type="password" class="form-control border" placeholder=" " name="password" id="password1" required="" style="color: grey;">
+            </div>
+            <div class="form-group">
+              <label for="password2" class="col-form-label">Confirm Password</label>
+              <input type="password" class="form-control border" placeholder=" " name="password2" id="password2" required="" style="color: grey;">
+            </div>
+           <!-- <div class="sub-w3l">
+              <div class="sub-agile">
+                <input type="checkbox" id="brand2" value="">
+                <label for="brand2" class="mb-3">
+                  <span></span>I Accept to the Terms & Conditions</label> 
+              </div>
+            </div>  -->
+
+            <div class="right-w3l">
+              <input type="submit" class="form-control btn-theme text-white" value="Register" 
+              name="register" style="background-color: #006bb3; color: white; margin-top: 1em;">
+            </div>
+            <br><br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
